@@ -374,6 +374,11 @@ header .container nav ul li:hover a{
         z-index: -1;
     }
 }
+@media (min-width:1199px){
+    .about .about-content .image::after{
+        right:200px;
+    }
+}
 
 @media (max-width:991px){
     .about .about-content .col{
